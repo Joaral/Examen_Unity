@@ -846,6 +846,7 @@ MonoBehaviour:
   maxEnemies: 0
   RandomPosition: 4
   Prefab: {fileID: 4817856388893245081, guid: 4d48bc6b7eceb684eb56268606e53242, type: 3}
+  spawnEnabled: 1
 --- !u!4 &943841940
 Transform:
   m_ObjectHideFlags: 0
@@ -1045,10 +1046,6 @@ PrefabInstance:
       value: Zombie
       objectReference: {fileID: 0}
     - target: {fileID: 5302890088708154403, guid: 4d48bc6b7eceb684eb56268606e53242, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5302890088708154403, guid: 4d48bc6b7eceb684eb56268606e53242, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
       objectReference: {fileID: 0}
@@ -1089,10 +1086,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5578749674063292883, guid: 4d48bc6b7eceb684eb56268606e53242, type: 3}
-      propertyPath: speed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5578749674063292883, guid: 4d48bc6b7eceb684eb56268606e53242, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1074639081}
@@ -1103,10 +1096,6 @@ PrefabInstance:
     - target: {fileID: 5578749674063292883, guid: 4d48bc6b7eceb684eb56268606e53242, type: 3}
       propertyPath: speedMultiplier
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6490289064727886624, guid: 4d48bc6b7eceb684eb56268606e53242, type: 3}
-      propertyPath: m_Constraints
-      value: 116
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
